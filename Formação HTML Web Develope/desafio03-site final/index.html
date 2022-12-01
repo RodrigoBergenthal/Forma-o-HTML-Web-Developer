@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - certificação HTML</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+
+            <ul>
+                <li><a href="#">Link</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#"> Pagina Principal</a></li><br>
+                <li> <a href="#sobre"> Sobre a clínica</a></li><br>
+                <li> <a href="#horario"> Horário de Atendimento</a></li><br>
+                <li> <a href="#contato"> Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+                <img height="170" width="600"
+                    src="https://th.bing.com/th/id/R.ee039d2a1be467cb81439ccc3c556f2f?rik=c76rVaWeW7Kzyg&riu=http%3a%2f%2fdiagnoslab.com.ar%2fimages%2fCLINICA_MEDICA.png&ehk=XBi1KuDJ%2fVMgi%2bEJSWiB0UYYEIwsznu9Z6VpdFlk%2fXs%3d&risl=&pid=ImgRaw&r=0" />
+                <br>
+
+            </div>
+
+            <div class="content">
+                <h1 id="sobre">Tudo sobre Clínica Médica</h1></a>
+                <h2>
+                    <p> <i>A Clínica Médica, também conhecida como medicina interna,
+                            é uma especialidade da medicina responsável pelo atendimento de todas as doenças não
+                            cirúrgicas em um adulto.
+                            Ou seja, a área engloba todas as áreas não cirúrgicas, sendo subdividida em várias outras
+                            especialidades</p>
+                </h2></i>
+                <hr />
+                <h1 id="contato">Contato para Agendamento</h1></a>
+                <ul>
+                    <li>Telefone (51) - 2599-2525</li>
+                    <li> Whatsapp (51) - 99955-2525</li>
+                    <li> Endereço</li>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.236110508452!2d-51.229757384885104!3d-30.030083381887557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519790f419ba57d%3A0x10d639c2fdfa0254!2sAv.%20Borges%20de%20Medeiros%2C%20410%20-%205%C2%BA%20Andar%20-%20Centro%20Hist%C3%B3rico%2C%20Porto%20Alegre%20-%20RS%2C%2090020-022!5e0!3m2!1spt-BR!2sbr!4v1599228084869!5m2!1spt-BR!2sbr"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </iframe>
+
+                    <form id="form" name="form" method="get" action="enviarEmail">
+                        <div class="nome">
+                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Seu nome.."
+                                required>
+                        </div>
+
+
+                        <div class="texto">
+                            <input type="text" name="celular" id="celular" class="form-control celular"
+                                placeholder="Seu celular.." required>
+                        </div>
+
+                        <div class="mensagem">
+                            <textarea id="mensagem" name="mensagem" class="md-textarea form-control"
+                                rows="5"></textarea>
+                        </div>
+
+                        <div class="botao text-center" style="margin: 0 auto;">
+                            <button type="submit" value="Enviar" class="btn btn-lg botaoservico"
+                                style="border-radius: 10px;padding: 15px;font-size: 0.9rem;">Enviar contato</button>
+                        </div>
+
+                    </form>
+                </ul>
+
+                <h1 id="horario">Horario de Atendimento</h1></a>
+                <table summary="tabela com horarios de atendimento" border="1" width="500" cellspacing="5" cellpadding="5" align="center">
+                    <tr>
+                        <td align="center">Serviços</td>
+                        <td align="center">Segunda à Sexta</td>
+                        <td align="center">Sábados</td>
+                        <td align="center">Feriados</td>
+                    </tr>
+
+                    <tr>
+                        <td align="center"> Clinica Geral</td>
+                        <td align="center"> 08h - 19hr</td>
+                        <td align="center"> 08h-14h</td>
+                        <td align="center"> 08h -14h</td>
+                    </tr>
+                    <tr>
+                        <td align="center"> Psicologia</td>
+                        <td align="center"> 08h - 19hr</td>
+                        <td align="center"> 08h-14h</td>
+                        <td align="center"> 08h -14h</td>
+                    </tr>
+                    <tr>
+                        <td align="center"> Pediatria</td>
+                        <td align="center"> 08h - 19hr</td>
+                        <td align="center"> 08h-18h</td>
+                        <td align="center"> - </td>
+                    </tr>
+                    <tr>
+                        <td align="center"> Oftalmologia</td>
+                        <td align="center"> 08h - 19hr</td>
+                        <td align="center"> 08h-18h</td>
+                        <td align="center"> - </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="footer">              
+                <h3 align="center" id="contato" >Entre em contato para o seu Agendamento</h3></a>
+                
+                    <li align="center">Telefone (51) - 2599-2525</li>
+                    <li align="center"> Whatsapp (51) - 99955-2525</li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
