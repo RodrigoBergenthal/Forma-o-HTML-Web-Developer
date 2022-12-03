@@ -9,4 +9,4 @@ Este desafio consiste em treinar você com relação a estrutura do site, e tamb
 conclui o desafio criando uma Pagina do game nier Automata!
 
 
-<img src="/desafio03-site%20final/assets/images/niercapa.png">
+<img src=">
