@@ -7,6 +7,3 @@ Este desafio consiste em treinar você com relação a estrutura do site, e tamb
 
 ## Desafio
 conclui o desafio criando uma Pagina do game nier Automata!
-
-
-<img src=">
