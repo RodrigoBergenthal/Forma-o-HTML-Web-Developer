@@ -7,7 +7,7 @@ Este desafio consiste em treinar você com relação a estrutura do site, e tamb
 
 ## Desafio
 <<<<<<< HEAD
-conclui o desafio criando uma Pagina do game Nier Automata!
+conclui o desafio criando uma Pagina do Game Nier Automata!
 =======
 Projeto Concluido! Wikipidia de Nier Automata!
 
